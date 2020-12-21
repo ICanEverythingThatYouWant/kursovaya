@@ -1,0 +1,40 @@
+[
+  {
+    "id": 1,
+    "FirstName": "Иван",
+    "LastName": "иван",
+    "otsenka": "3"
+
+  },
+  {
+    "id": 2,
+    "FirstName": "Иван",
+    "LastName": "иван",
+    "otsenka": "3"
+  },
+  {
+    "id": 3,
+    "FirstName": "Иван",
+    "LastName": "иван",
+    "otsenka": "3"
+  },
+  {
+    "id": 4,
+    "FirstName": "Иван",
+    "LastName": "иван",
+    "otsenka": "3"
+  },
+  {
+    "id": 5,
+    "FirstName": "Иван",
+    "LastName": "иван",
+    "otsenka": "3"
+  },
+  {
+    "id": 6,
+    "FirstName": "Иван",
+    "LastName": "иван",
+    "otsenka": "3"
+  }
+]
+

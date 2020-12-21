@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<a class="button1215" href="index.html">назад</a>
+<form class="text" name="test" action="http://localhost/test/test3.php" method="post" >
+    <fieldset class="account-info">
+        <label>номер студента:<input type="text"  name="id"></label>
+        <label>имя студента:<input type="text"  id="client name" name="FirstName"></label>
+
+
+
+
+        <label>фамилия студента: <input id=""  type="text" name="LastName"></label>
+
+
+        <label>оценка: <input type="text"  name="otsenka"><br></label>
+        <label>Группа: <input value="ИМ-44" type="text"  name="gruppa"><br></label>
+        <label>экзамен/зачет: <input type="text"  name="tupe"><br></label>
+        <label>предмет: <input type="text"  name="Lesson"><br></label>
+    </fieldset>
+    <fieldset class="account-action">
+        <input class="btn" type="submit" name="submit"  value="добавить студента">
+
+    </fieldset>
+</form>
+
+
+
+
+
+<form>
+    <table class="tbs2" id="t3" border="2" cellpadding="10">
+
+        <caption >таблица зачета по Всемирной истории</caption>
+
+        <tbody ><tr>
+            <td>Номер </td>
+            <td>Имя</td>
+            <td>Фамилия</td>
+            <td>Оценка</td>
+            <td>Группа</td>
+            <td>Тип</td>
+            <td>Предмет</td>
+
+        </tr>
+
+        </tbody></table>
+</form>
+<form>
+    <table class="tbs3" id="t4" border="2" cellpadding="10">
+
+        <caption >таблица всех студентов</caption>
+
+        <tbody ><tr>
+            <td>Номер </td>
+            <td>Имя</td>
+            <td>Фамилия</td>
+            <td>группа</td>
+
+        </tr>
+
+        </tbody></table>
+</form>
+
+<form class="text" name="test" action="http://localhost/test/remove2.php" method="post" >
+    <fieldset class="account-info">
+        <label> Номер студента: <input type="text"  name="id" ></label>
+    </fieldset>
+    <fieldset class="account-action">
+        <input class="btn" type="submit" name="submit"  value="удалить">
+
+    </fieldset>
+</form>
+
+<link rel="stylesheet" href="table.css" media="screen">
+<script class="u-script" type="text/javascript" src="m2.js" ></script>
+</body>
+</html>
